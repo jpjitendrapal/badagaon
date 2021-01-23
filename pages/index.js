@@ -22,7 +22,7 @@ export default function Home() {
       </main>
 
       <footer>
-        Copy write Pal enterprise 2020
+        Copyright Pal enterprise 2020
       </footer>
 
       <style jsx>{`
