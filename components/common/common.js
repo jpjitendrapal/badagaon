@@ -3,7 +3,7 @@ export default function Common(props){
     return (
         <div>
             <Head>
-                <title>ABC</title>
+                <title>Badagaon</title>
                 {/* <link rel="icon" href="" /> */}
             </Head>
             <style jsx global>{`

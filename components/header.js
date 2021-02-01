@@ -7,7 +7,7 @@ export default function AppHeader(){
     return (
         <div className="header-ct">
             <div className="header">
-                <div><FontAwesomeIcon icon={faPhoneSquare} />&nbsp; +91-9876543210 </div>
+                <div><FontAwesomeIcon icon={faPhoneSquare} />&nbsp; +91-9999999999 </div>
                 <div> <FontAwesomeIcon icon={faEnvelope} />&nbsp; info@abc.com</div>
                 <div> <FontAwesomeIcon icon={faMapMarked} />&nbsp; Shop-123, Great Market, Popular Place, Pin-123456 </div>
                 <div className="social">

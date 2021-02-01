@@ -11,10 +11,10 @@ export default function AppFooter(){
                 <div>
                     <div>Quick Links</div>
                     <div className="ft-links margin-bottom10">
-                        <div> <FontAwesomeIcon icon={faHandPointRight}/> Home</div>
-                        <div><FontAwesomeIcon icon={faHandPointRight}/> About Us</div>
+                        <div> <FontAwesomeIcon icon={faHandPointRight}/><Link href="/"> Home</Link></div>
+                        <div><FontAwesomeIcon icon={faHandPointRight}/><Link href="/about"> About Us</Link></div>
                         <div><FontAwesomeIcon icon={faHandPointRight}/> Photo Gallery</div>
-                        <div><FontAwesomeIcon icon={faHandPointRight}/> Contact Us</div>
+                        <div><FontAwesomeIcon icon={faHandPointRight}/><Link href="/contact"> Contact Us</Link></div>
                     </div>
                 </div>
                 <div style={{minWidth: "200px"}}>
@@ -27,7 +27,7 @@ export default function AppFooter(){
                         ABC Organization
                         <br/>Shop-123, Great Market, 
                         <br/>Popular Place, Pin-123456
-                        <br/>Ph: +91-9876543210
+                        <br/>Ph: +91-9999999999
                     </div>
                 </div>
             </div>
