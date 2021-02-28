@@ -3,6 +3,7 @@ import Link from 'next/link';
 import AppHeader from './../components/header';
 import AppFooter from './../components/appFooter';
 import Common from './../components/common/common';
+import ImageGrid from '../components/imageGrid/grid';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       
       <AppHeader/>
       <main>
+        {/* <ImageGrid></ImageGrid> */}
         <h1 className="title">
           Welcome to Badagaon
         </h1>
@@ -17,6 +19,9 @@ export default function Home() {
       <AppFooter/>
       <Common/>
       <style jsx>{`
+        .svg-inline--fa{
+          max-width: 25px;
+        }
         main {
           padding: 4rem 0;
           flex: 1;
