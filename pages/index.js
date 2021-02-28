@@ -11,7 +11,7 @@ export default function Home() {
       
       <AppHeader/>
       <main>
-        {/* <ImageGrid></ImageGrid> */}
+        {/* <ImageGrid images={[{url:"",alt:"alt1"},{url:"", alt:"alt2"}]} /> */}
         <h1 className="title">
           Welcome to Badagaon
         </h1>
