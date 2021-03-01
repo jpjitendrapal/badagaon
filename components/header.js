@@ -9,7 +9,7 @@ export default function AppHeader(){
             <div className="header">
                 <div><FontAwesomeIcon icon={faPhoneSquare} />&nbsp; +91-9999999999 </div>
                 <div> <FontAwesomeIcon icon={faEnvelope} />&nbsp; info@abc.com</div>
-                <div> <FontAwesomeIcon icon={faMapMarked} />&nbsp; Shop-123, Great Market, Popular Place, Pin-123456 </div>
+                <div> <FontAwesomeIcon icon={faMapMarked} fixedWidth />&nbsp; Shop-123, Great Market, Popular Place, Pin-123456 </div>
                 <div className="social">
                     <div><FontAwesomeIcon icon={faFacebookSquare}/></div>
                     <div><FontAwesomeIcon icon={faTwitterSquare}/></div>
