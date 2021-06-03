@@ -38,7 +38,6 @@ export default function AppHeader(){
                         justify-content: space-between;
                         color: #f4f4f4;
                         background-color: #1b1f23;
-                        font-size: 1rem;
                     }
                     .header-mask {
                         // height: 50px;
