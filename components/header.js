@@ -7,13 +7,13 @@ export default function AppHeader(){
     return (
         <div className="header-ct">
             <div className="header">
-                <div><FontAwesomeIcon icon={faPhoneSquare} />&nbsp; +91-9999999999 </div>
-                <div> <FontAwesomeIcon icon={faEnvelope} />&nbsp; info@abc.com</div>
-                <div> <FontAwesomeIcon icon={faMapMarked} fixedWidth />&nbsp; Shop-123, Great Market, Popular Place, Pin-123456 </div>
+                <div><FontAwesomeIcon className="fa-lg" icon={faPhoneSquare} />&nbsp; +91-9999999999 </div>
+                <div> <FontAwesomeIcon className="fa-lg" icon={faEnvelope} />&nbsp; info@abc.com</div>
+                <div> <FontAwesomeIcon icon={faMapMarked} className="fa-lg"/>&nbsp; Shop-123, Great Market, Popular Place, Pin-123456 </div>
                 <div className="social">
-                    <div><FontAwesomeIcon icon={faFacebookSquare}/></div>
-                    <div><FontAwesomeIcon icon={faTwitterSquare}/></div>
-                    <div><FontAwesomeIcon icon={faYoutubeSquare}/></div>
+                    <div><FontAwesomeIcon className="fa-lg" icon={faFacebookSquare}/></div>
+                    <div><FontAwesomeIcon className="fa-lg" icon={faTwitterSquare}/></div>
+                    <div><FontAwesomeIcon className="fa-lg" icon={faYoutubeSquare}/></div>
                 </div>
             </div>
             <div className="header-mask"></div>
