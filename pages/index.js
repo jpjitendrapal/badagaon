@@ -30,7 +30,7 @@ export default function Home() {
       <main>
         {/* <ImageGrid images={[{url:"",alt:"alt1"},{url:"", alt:"alt2"}]} /> */}
         <h1 className="title">
-          Welcome to Badagaon
+          Welcome to Badagaon (Orai)
           
           {/* <LazyImg/> */}
         </h1>
